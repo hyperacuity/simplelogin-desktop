@@ -30,20 +30,20 @@ An unofficial desktop application embedding the SimpleLogin web-app using [Elect
 
 ## Download
 
-1. Go to the latest [Release](https://github.com/hyperacuity/simplelogin-desktop/releases/latest)
-
-2. Choose a packaging format from the list below
-<div style="margin-left: 40px;">
+1. Choose a packaging format from the list below
+<div>
 
 | OS      	| Format    	| Updating   	| Arch      | Type        	|
 |---------	|-----------	|-----------	|---------	|-------------	|
-| Linux   	| .AppImage 	| yes       	| x64     	| Executable[1]	|
-| Linux   	| .tar.gz    	| no        	| x64     	| Standalone  	|
-| Windows 	| .exe      	| yes       	| x64/x32 	| Installer    	|
-| Windows 	| .zip      	| no        	| x64     	| Standalone  	|
+| Linux   	| .AppImage 	| yes       	| x64     	| executable[1]	|
+| Linux   	| .tar.gz    	| no⚠️         | x64     	 | standalone  	 |
+| Windows 	| .exe      	| yes       	| x64/x32 	| installer    	|
+| Windows 	| .zip      	| no⚠️         | x64     	 | standalone  	 |
 
 [1] automatic desktop-integration using e.g. this [launcher](https://github.com/TheAssassin/AppImageLauncher) 
 </div>
+
+2. Go to the latest [Release](https://github.com/hyperacuity/simplelogin-desktop/releases/latest)
 
 3. Click matching filename to download
 
@@ -64,7 +64,7 @@ yarn >= 3.3.1
 `cd ./simplelogin-desktop`
 
 #### for Linux:
-3. Run with\
+3. Build with\
 `yarn build`
 
 #### for Windows:
@@ -83,11 +83,10 @@ docker run --rm -ti \
  -v ~/.cache/electron-builder:/root/.cache/electron-builder \
  electronuserland/builder:wine
 ```
-5. Run with\
+5. Build with\
 `yarn build-win`
 
 </details>
-<br/>
 
 ## Contributing
 
