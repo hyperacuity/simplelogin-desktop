@@ -1,0 +1,37 @@
+productName: "SimpleLogin Desktop"
+appId: "com.unofficial.simplelogin.desktop"
+asar: true
+
+linux:
+  artifactName: "simplelogin-desktop-${version}-linux.${ext}"
+  publish:
+    - github
+  target:
+    - "AppImage"
+    - "tar.gz"
+  category: Network
+  icon: "./resources/logo.icns"
+  desktop:
+    StartupWMClass: "simplelogin-desktop"
+    Comment: "Open source anonymous email aliases"
+    GenericName: "Email Alias Provider"
+
+win:
+  artifactName: "simplelogin-desktop-${version}-windows.${ext}"
+  publish:
+    - github
+  target:
+    - "zip"
+    - target: "nsis"
+      arch:
+        - x64
+        - ia32
+
+nsis:
+  oneClick: true
+  perMachine: false
+  allowElevation: true
+
+directories:
+  buildResources: "resources"
+  output: "build"
