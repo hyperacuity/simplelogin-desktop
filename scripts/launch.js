@@ -1,5 +1,5 @@
 const { app, shell, session, protocol } = require('electron')
-const { BrowserWindow, Menu, nativeTheme } = require('electron')
+const { BrowserWindow, Notification, Menu, nativeTheme } = require('electron')
 
 const { autoUpdater } = require("electron-updater")
 
@@ -38,7 +38,16 @@ Menu.setApplicationMenu(null)
 autoUpdater.checkForUpdates().then((res) => {
     if(res) {
       console.log("current:", app.getVersion())
-      console.log(res)
+      console.log("update:", res["updateInfo"]["version"])
+      
+      res["downloadPromise"].then((com) => {
+        console.log(com);
+
+        new Notification({ 
+          title: "SimpleLogin Desktop", 
+          body: "A new update has been downloaded.\nRestart to apply changes!" 
+        }).show()
+      })
     }
 })
 
