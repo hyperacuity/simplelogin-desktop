@@ -1,4 +1,4 @@
-<div align="center"> <img src="./assets/logo.svg" style="height: 120px;"/></div>
+<div align="center"> <img src="https://raw.githubusercontent.com/hyperacuity/simplelogin-desktop/main/assets/logo.svg" style="height: 120px;"/></div>
 
 <h1 align="center">SimpleLogin Desktop</h1>
 
@@ -8,7 +8,7 @@ An unofficial desktop application embedding the SimpleLogin web-app using [Elect
 
 <details>
 <summary style="font-size: large;">Preview</summary>
-<img src="./assets/preview/alias.png" title="Dashboard on Linux">
+<img src="https://raw.githubusercontent.com/hyperacuity/simplelogin-desktop/main/assets/preview/alias.png" title="Dashboard on Linux">
 <table>
 <colgroup>
 <col style="width: 70%">
@@ -16,8 +16,8 @@ An unofficial desktop application embedding the SimpleLogin web-app using [Elect
 </colgroup>
 <tbody>
   <tr>
-    <td><img src="./assets/preview/toggle.png" title="Theme Toggle"/></td>
-    <td><img src="./assets/preview/hotkeys.png" title="Navigation Menu"/></td>
+    <td><img src="https://raw.githubusercontent.com/hyperacuity/simplelogin-desktop/main/assets/preview/toggle.png" title="Theme Toggle"/></td>
+    <td><img src="https://raw.githubusercontent.com/hyperacuity/simplelogin-desktop/main/assets/preview/hotkeys.png" title="Navigation Menu"/></td>
   </tr>
 </tbody>
 </table>
@@ -98,10 +98,10 @@ docker run --rm -ti \
 
 ## Contributing
 
-- [Issues]() are appreciated 
+- [Issues](https://github.com/hyperacuity/simplelogin-desktop/issues) are appreciated 
 - Communicate with me if you want to improve something
 
 ## License
 
-[GPLv3](./license.md)
+[GPLv3](https://github.com/hyperacuity/simplelogin-desktop/blob/main/license.md)
 
