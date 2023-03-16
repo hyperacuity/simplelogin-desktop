@@ -14,7 +14,8 @@
     "build": "bash -c 'yarn install && clear && yarn run electron-builder --publish never $@'",
     "build-win": "yarn build owo --win",
     "build-clean": "bash -c 'sudo chown -vR $USER:$USER ./build/ && rm -vR ./build/'",
-    "release": "electron-builder"
+    "release": "electron-builder --publish always",
+    "release-win": "electron-builder --win --publish always"
   },
   "devDependencies": {
     "electron": "23.1.3",
