@@ -7,22 +7,27 @@ An unofficial desktop application embedding the SimpleLogin web-app using [Elect
 > [SimpleLogin](https://simplelogin.io) is an [open source](https://github.com/simple-login) email alias solution to protect your email address.
 
 <details>
-<summary style="font-size: large;">Preview</summary>
-<img src="https://raw.githubusercontent.com/hyperacuity/simplelogin-desktop/main/assets/preview/alias.png" title="Dashboard on Linux">
+<summary>Preview</summary>
+
 <table>
 <colgroup>
 <col style="width: 70%">
 <col style="width: 30%">
 </colgroup>
 <tbody>
+  <tr style="border:none;">
+    <div style="padding: 6px 13px;">
+    <img src="https://raw.githubusercontent.com/hyperacuity/simplelogin-desktop/main/assets/preview/alias.png" title="Dashboard on Linux"></div>
+  </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/hyperacuity/simplelogin-desktop/main/assets/preview/toggle.png" title="Theme Toggle"/></td>
-    <td><img src="https://raw.githubusercontent.com/hyperacuity/simplelogin-desktop/main/assets/preview/hotkeys.png" title="Navigation Menu"/></td>
+    <td style="border: none;">
+      <img src="https://raw.githubusercontent.com/hyperacuity/simplelogin-desktop/main/assets/preview/toggle.png" title="Theme Toggle"/></td>
+    <td style="border: none;">
+      <img src="https://raw.githubusercontent.com/hyperacuity/simplelogin-desktop/main/assets/preview/hotkeys.png" title="Navigation Menu"/></td>
   </tr>
 </tbody>
 </table>
 </details>
-<br>
 
 ## Disclaimer
 
