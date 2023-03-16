@@ -1,4 +1,4 @@
-<div align="center"> <img src="https://raw.githubusercontent.com/hyperacuity/simplelogin-desktop/main/assets/logo.svg" style="height: 120px;"/></div>
+<div align="center"> <img src="https://raw.githubusercontent.com/hyperacuity/simplelogin-desktop/main/resources/source.svg" style="height: 120px;"/></div>
 
 <h1 align="center">SimpleLogin Desktop</h1>
 
@@ -8,25 +8,13 @@ An unofficial desktop application embedding the SimpleLogin web-app using [Elect
 
 <details>
 <summary>Preview</summary>
-
-<table>
-<colgroup>
-<col style="width: 70%">
-<col style="width: 30%">
-</colgroup>
-<tbody>
-  <tr style="border:none;">
-    <div style="padding: 6px 13px;">
-    <img src="https://raw.githubusercontent.com/hyperacuity/simplelogin-desktop/main/assets/preview/alias.png" title="Dashboard on Linux"></div>
-  </tr>
-  <tr>
-    <td style="border: none;">
-      <img src="https://raw.githubusercontent.com/hyperacuity/simplelogin-desktop/main/assets/preview/toggle.png" title="Theme Toggle"/></td>
-    <td style="border: none;">
-      <img src="https://raw.githubusercontent.com/hyperacuity/simplelogin-desktop/main/assets/preview/hotkeys.png" title="Navigation Menu"/></td>
-  </tr>
-</tbody>
-</table>
+<div>
+  <img src="https://raw.githubusercontent.com/hyperacuity/simplelogin-desktop/main/assets/preview/alias.png" title="Dashboard on Linux">
+  <div>
+      <img src="https://raw.githubusercontent.com/hyperacuity/simplelogin-desktop/main/assets/preview/toggle.png" title="Theme Toggle"/>
+      <img src="https://raw.githubusercontent.com/hyperacuity/simplelogin-desktop/main/assets/preview/hotkeys.png" title="Navigation Menu"/>
+    </div>
+</div>
 </details>
 
 ## Disclaimer
