@@ -33,12 +33,12 @@ An unofficial desktop application embedding the SimpleLogin web-app using [Elect
 1. Choose a packaging format from the list below
 <div>
 
-| OS      	| Format    	| Updating   	| Arch      | Type        	|
-|---------	|-----------	|-----------	|---------	|-------------	|
-| Linux   	| .AppImage 	| yes       	| x64     	| executable[1]	|
-| Linux   	| .tar.gz    	| no⚠️         | x64     	 | standalone  	 |
-| Windows 	| .exe      	| yes       	| x64/x32 	| installer    	|
-| Windows 	| .zip      	| no⚠️         | x64     	 | standalone  	 |
+| OS      	| Format    	| Updating   	| Arch      | Type        	 |
+|---------	|-----------	|-----------	|---------	|--------------  |
+| Linux   	| .AppImage 	| ✅ Yes      | x64       | Executable [1]	|
+| Linux   	| .tar.gz    	| ⛔ No       | x64     	 | Standalone  	  |
+| Windows 	| .exe      	| ✅ Yes      | x64/x32   | Installer      |
+| Windows 	| .zip      	| ⛔ No       | x64     	 | Standalone  	  |
 
 [1] automatic desktop-integration using e.g. this [launcher](https://github.com/TheAssassin/AppImageLauncher) 
 </div>
