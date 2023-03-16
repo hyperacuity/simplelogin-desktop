@@ -10,7 +10,7 @@ linux:
     - "AppImage"
     - "tar.gz"
   category: Network
-  icon: "./resources/logo.icns"
+  icon: "resources/icons"
   desktop:
     StartupWMClass: "simplelogin-desktop"
     Comment: "Open source anonymous email aliases"
@@ -18,6 +18,7 @@ linux:
 
 win:
   artifactName: "simplelogin-desktop-${version}-windows.${ext}"
+  icon: "resources/icons/logo.ico"
   publish:
     - github
   target:
@@ -31,6 +32,11 @@ nsis:
   oneClick: true
   perMachine: false
   allowElevation: true
+  runAfterFinish: true
+  deleteAppDataOnUninstall: true
+  installerIcon: "resources/icons/icon.ico"
+  uninstallerIcon: "resources/icons/icon.ico"
+
 
 directories:
   buildResources: "resources"

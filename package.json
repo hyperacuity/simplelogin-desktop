@@ -10,7 +10,7 @@
   "scripts": {
     "postinstall": "electron-builder install-app-deps",
     "start": "clear && electron . --trace-warnings --disable-gpu",
-    "icons": "bash -c 'yarn run electron-icon-builder --input=./assets/logo.png --output=./resources/ --flatten && mv ./resources/icons/icon.icns ./resources/ && rm -r ./resources/icons'",
+    "icons": "bash -c 'yarn run electron-icon-builder --input=./resources/source.png --output=./resources/ --flatten'",
     "build": "bash -c 'yarn install && clear && yarn run electron-builder --publish never $@'",
     "build-win": "yarn build owo --win",
     "build-clean": "bash -c 'sudo chown -vR $USER:$USER ./build/ && rm -vR ./build/'",
