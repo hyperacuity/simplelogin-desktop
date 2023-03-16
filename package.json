@@ -4,7 +4,7 @@
   "description": "Open source anonymous email service",
   "main": "scripts/launch.js",
   "author": "hyperacuity",
-  "homepage": "https://github.com/hyperacuity/simplelogin-desktop",
+  "homepage": "https://github.com/hyperacuity/simplelogin-desktop#readme",
   "license": "GPL-3.0-only",
   "repository": "github:hyperacuity/simplelogin-desktop",
   "scripts": {
@@ -14,7 +14,7 @@
     "build": "bash -c 'yarn install && clear && yarn run electron-builder --publish never $@'",
     "build-win": "yarn build owo --win",
     "build-clean": "bash -c 'sudo chown -vR $USER:$USER ./build/ && rm -vR ./build/'",
-    "publish": "electron-builder"
+    "release": "electron-builder"
   },
   "devDependencies": {
     "electron": "23.1.3",
