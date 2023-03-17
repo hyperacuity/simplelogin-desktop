@@ -1,6 +1,6 @@
 {
   "name": "simplelogin-desktop",
-  "version": "0.4.2",
+  "version": "0.4.4",
   "description": "Open source anonymous email service",
   "main": "scripts/launch.js",
   "author": "hyperacuity",
