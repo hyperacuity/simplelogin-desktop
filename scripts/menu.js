@@ -1,4 +1,4 @@
-const { app, nativeTheme } = require('electron')
+const { app, shell, nativeTheme } = require('electron')
 const { Menu, MenuItem } = require('electron')
 
 
@@ -48,7 +48,7 @@ module.exports.createMenu = (win) => {
     }, {
       type: 'separator'
     }, {
-      role: 'quit',
+      /*role: 'quit',*/
       label: "Quit",
       accelerator: 'Ctrl+Q',
       click: () => {
@@ -75,16 +75,19 @@ module.exports.createMenu = (win) => {
         win.reload()
       }
     }, {
-      role: 'reload',
+      /*role: 'reload',*/
       label: "Reload",
       accelerator: 'F5',
       click: () => { win.reload() }
     }, {
       type: 'separator'
     }, {
-      role: 'about',
+      /*role: 'about',*/
       label: "About",
       click: () => { win.loadURL("local:///about.html") }
+    }, {
+      label: "Website",
+      click:() => { shell.openExternal("https://github.com/hyperacuity/simplelogin-desktop#readme")}
     }]
   }))
 
