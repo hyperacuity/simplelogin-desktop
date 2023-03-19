@@ -16,7 +16,7 @@ var win = null
 
 app.on('second-instance', (event, cmd, cwd, data) => {
   if (win) {
-    if (win.isMinimized()) myWindow.restore()
+    if (win.isMinimized()) win.restore()
     win.focus()
   }
 })
